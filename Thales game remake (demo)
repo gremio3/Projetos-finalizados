@@ -1,8 +1,8 @@
 import random
 import time
 print("="*50)
-print("TALLES GAME!".center(50))
-print("REMAKE".center(50))
+print("THALES GAME!".center(50))
+print("REMAKE (demo)".center(50))
 print("="*50)
 print("\n")
 print("[1] START".center(50))
@@ -12,7 +12,7 @@ print("\n")
 print("="*50)
 while True:
     print("*digite '1' para iniciar o jogo")
-    start = input()
+    start = (input())
     if start == "1":
         break
     elif start == "3":
@@ -31,7 +31,7 @@ while True:
         creditosum = [
             "",
             "Jogo original",
-            "Talles",
+            "Thales",
             "",
             "Remake (demo)",
             "Borella",
@@ -475,11 +475,10 @@ while True:
         while True:
             c = input()
             if c == "":
-                jogo = random.randint(3, 7)
-                jogos = random.randint(3, 7)
-                jogoss = random.randint(3, 7)
+                jogo = random.randint(4, 7)
+                jogos = random.randint(4, 7)
+                jogoss = random.randint(4, 7)
                 jo = jo + 1
-                time.sleep(1)
                 print("você jogou!")
                 print("caiu:", jogo, jogos, jogoss)
                 if jo > 10:
@@ -501,11 +500,11 @@ while True:
             elif c == "sair":
                 print("você pode escolher o seu destino")
                 time.sleep(1)
-                print("1- casa")
+                print("[1]- casa")
                 time.sleep(1)
-                print("2- cassino (pode voltar)")
+                print("[2]- cassino (pode voltar)")
                 time.sleep(1)
-                print("3- outro país")
+                print("[3]- outro país")
                 time.sleep(1)
                 print("o que você vai fazer?")
                 time.sleep(1)
@@ -513,9 +512,9 @@ while True:
     else:
         print("tente novamente")
         continue
-print("*você fugiu o país")
+print("*você fugiu do país")
 time.sleep(1)
-print("atualmente voce esta no Paraguai")
+print("atualmente você esta no Paraguai")
 time.sleep(1)
 print("escolha outro país RÁPIDO")
 time.sleep(1)
@@ -547,7 +546,7 @@ print("-você ja escapou diversas vezes")
 time.sleep(3)
 print("-mas isso acaba hoje!")
 time.sleep(2)
-print("-Talles!")
+print("-Thales!")
 time.sleep(5)
 print("*a professora se retira da sala")
 time.sleep(2)
@@ -555,7 +554,7 @@ print("RAPíDO! escolha algo que pode te ajudar a escapar!")
 time.sleep(1)
 print("[1]- canivete")
 time.sleep(1)
-print("[2]- esqueiro")
+print("[2]- Isqueiro")
 time.sleep(1)
 print("[3]- tesoura")
 time.sleep(1)
@@ -587,7 +586,7 @@ while True:
         exit()
         break
     elif ferramenta == "2":
-        print("*você usou o esqueiro parfa queimar a corda")
+        print("*você usou o Isqueiro para queimar a corda")
         time.sleep(2)
         print("você se soltou...")
         time.sleep(2)
@@ -632,7 +631,7 @@ creditos = [
     "Final Principal",
     "",
     "Jogo original",
-    "Talles",
+    "Thales",
     "",
     "Remake (demo)",
     "Borella",
@@ -641,7 +640,7 @@ creditos = [
     "Borella",
     "",
     "Testadores",
-    "Bosio",
+    "Bosio⭐",
     "Lucheze",
     "",
     "THANK YOU",
